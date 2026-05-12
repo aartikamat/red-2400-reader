@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "red2400"
+version = "0.1.0"
+description = "Reader and helpers for the RED-2400 public benchmark dataset (Rejection Event Dataset)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Arati U. Kamat" }
+]
+keywords = [
+    "rejection-events",
+    "benchmark",
+    "dataset",
+    "open-data",
+    "red-2400"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+polars = ["polars>=0.20"]
+plot = ["matplotlib>=3.7"]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+]
+
+[project.urls]
+Homepage = "https://doi.org/10.5281/zenodo.19989075"
+Dataset = "https://doi.org/10.5281/zenodo.19989075"
+Manuscript = "https://doi.org/10.5281/zenodo.20011631"
+ORCID = "https://orcid.org/0009-0000-4781-312X"
+
+[tool.setuptools]
+packages = ["red2400"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

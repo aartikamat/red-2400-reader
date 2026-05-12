@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+# Optional accelerated reader. Uncomment to install.
+# polars>=0.20
+# Optional plotting for the quickstart notebook.
+# matplotlib>=3.7

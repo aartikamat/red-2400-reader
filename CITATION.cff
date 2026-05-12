@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this dataset or package, please cite the dataset record below."
+type: dataset
+title: "RED-2400: Public Benchmark Dataset (Rejection Event Dataset, 2,400+ events)"
+abstract: >-
+  RED-2400 is a public benchmark dataset of 2,400+ canonical rejection events,
+  each describing one token that was filtered out by an automated screening
+  system together with its post-rejection on-chain market state. The dataset
+  enables reproducible study of filter precision, post-rejection price
+  dynamics, and survivorship effects.
+authors:
+  - family-names: "Kamat"
+    given-names: "Arati U."
+    orcid: "https://orcid.org/0009-0000-4781-312X"
+version: "1.0.0"
+date-released: "2026-05-11"
+doi: "10.5281/zenodo.19989075"
+url: "https://doi.org/10.5281/zenodo.19989075"
+license: "CC-BY-4.0"
+keywords:
+  - "rejection events"
+  - "benchmark dataset"
+  - "filter evaluation"
+  - "open data"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19989075"
+    description: "Zenodo record for the RED-2400 dataset"
+  - type: doi
+    value: "10.5281/zenodo.20011631"
+    description: "Zenodo archive of the companion manuscript"
+preferred-citation:
+  type: dataset
+  title: "RED-2400: Public Benchmark Dataset (Rejection Event Dataset, 2,400+ events)"
+  authors:
+    - family-names: "Kamat"
+      given-names: "Arati U."
+      orcid: "https://orcid.org/0009-0000-4781-312X"
+  year: 2026
+  doi: "10.5281/zenodo.19989075"
+  url: "https://doi.org/10.5281/zenodo.19989075"
