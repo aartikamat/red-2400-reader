@@ -4,6 +4,7 @@
 [![Data License: CC BY 4.0](https://img.shields.io/badge/Data%20License-CC%20BY%204.0-lightgrey.svg)](DATA_LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19989075-blue)](https://doi.org/10.5281/zenodo.19989075)
+[![arXiv](https://img.shields.io/badge/arXiv-2605.12151-b31b1b.svg)](https://arxiv.org/abs/2605.12151)
 
 A small, dependency-light Python package for loading and analyzing the
 **RED-2400 (Rejection Event Dataset, 2,400+ events)** public benchmark dataset
@@ -40,10 +41,13 @@ https://doi.org/10.5281/zenodo.19989075
 
 @misc{kamat_red2400_manuscript_2026,
   author       = {Kamat, Arati U.},
-  title        = {{RED-2400 Manuscript}},
+  title        = {{RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels}},
   year         = {2026},
+  eprint       = {2605.12151},
+  archivePrefix= {arXiv},
+  primaryClass = {q-fin.TR},
   doi          = {10.5281/zenodo.20011631},
-  howpublished = {SSRN 6702198}
+  howpublished = {arXiv:2605.12151, SSRN 6702198, Zenodo 10.5281/zenodo.20011631}
 }
 ```
 

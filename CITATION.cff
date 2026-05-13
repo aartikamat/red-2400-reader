@@ -29,6 +29,12 @@ identifiers:
   - type: doi
     value: "10.5281/zenodo.20011631"
     description: "Zenodo archive of the companion manuscript"
+  - type: other
+    value: "arXiv:2605.12151"
+    description: "arXiv preprint of the companion manuscript (q-fin.TR)"
+  - type: other
+    value: "SSRN:6702198"
+    description: "SSRN preprint of the companion manuscript"
 preferred-citation:
   type: dataset
   title: "RED-2400: Public Benchmark Dataset (Rejection Event Dataset, 2,400+ events)"
