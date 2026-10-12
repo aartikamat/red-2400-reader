@@ -10,12 +10,12 @@ licensed under the Creative Commons Attribution 4.0 International License
 
 The canonical dataset record and its license terms are available at:
 
-  Zenodo DOI: 10.5281/zenodo.19989075
-  URL:        https://doi.org/10.5281/zenodo.19989075
+  Zenodo DOI: 10.5281/zenodo.19989074 (concept DOI, latest version)
+  URL:        https://doi.org/10.5281/zenodo.19989074
 
 The companion manuscript is archived at:
 
-  Zenodo DOI: 10.5281/zenodo.20011631
+  Zenodo DOI: 10.5281/zenodo.20011630 (concept DOI)
   SSRN ID:    6702198
 
 This repository contains *code* (the `red2400` Python package) for loading
@@ -27,6 +27,6 @@ data license.
 When you use the dataset, you must comply with CC-BY-4.0, which at minimum
 requires attribution to:
 
-  Kamat, A. U. (2026). RED-2400: Public Benchmark Dataset
-  (Rejection Event Dataset, 2,400+ events). Zenodo.
-  https://doi.org/10.5281/zenodo.19989075
+  Kamat, A. U. (2026). RED-2400: A Public Benchmark of Algorithmically-Rejected
+  Trading Events with Outcome Labels [Data set]. Zenodo.
+  https://doi.org/10.5281/zenodo.19989074

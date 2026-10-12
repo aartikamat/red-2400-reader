@@ -1,7 +1,7 @@
 """red2400 — reader and helpers for the RED-2400 public benchmark dataset.
 
-The RED-2400 dataset is a public benchmark of 2,400+ canonical rejection
-events published by Arati U. Kamat on Zenodo (DOI 10.5281/zenodo.19989075)
+The RED-2400 dataset is a public benchmark of algorithmically rejected trading
+events published by Arati Uday Kamat on Zenodo (concept DOI 10.5281/zenodo.19989074)
 under CC-BY-4.0. This package provides a small, dependency-light reader,
 schema utilities, and common filters for working with the dataset.
 
