@@ -1,19 +1,20 @@
 cff-version: 1.2.0
 message: "If you use this dataset or package, please cite the dataset record below."
-type: dataset
-title: "RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels"
+type: software
+title: "RED-2400 Reader"
 abstract: >-
   Python reader for the RED-2400 public benchmark (6,660 rejection events,
-  Zenodo concept DOI 10.5281/zenodo.19989074).
+  Zenodo concept DOI 10.5281/zenodo.19989074). Version 0.1.0 (May 2026) is
+  a legacy reader for the May 2026 JSON-lines file; the current RED-2400
+  files are CSV.
 authors:
   - family-names: "Kamat"
     given-names: "Arati Uday"
     orcid: "https://orcid.org/0009-0000-4781-312X"
-version: "1.0.0"
-date-released: "2026-05-11"
-doi: "10.5281/zenodo.19989074"
-url: "https://doi.org/10.5281/zenodo.19989074"
-license: "CC-BY-4.0"
+version: "0.1.0"
+date-released: "2026-05-12"
+license: "MIT"
+repository-code: "https://github.com/aartikamat/red-2400-reader"
 keywords:
   - "rejection events"
   - "benchmark dataset"
@@ -33,7 +34,7 @@ identifiers:
     value: "SSRN:6702198"
     description: "SSRN preprint of the companion manuscript"
 preferred-citation:
-  type: dataset
+  type: data
   title: "RED-2400: A Public Benchmark of Algorithmically-Rejected Trading Events with Outcome Labels"
   authors:
     - family-names: "Kamat"
@@ -42,3 +43,4 @@ preferred-citation:
   year: 2026
   doi: "10.5281/zenodo.19989074"
   url: "https://doi.org/10.5281/zenodo.19989074"
+  license: "CC-BY-4.0"

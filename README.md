@@ -6,7 +6,7 @@
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19989074-blue)](https://doi.org/10.5281/zenodo.19989074)
 [![arXiv](https://img.shields.io/badge/arXiv-2605.12151-b31b1b.svg)](https://arxiv.org/abs/2605.12151)
 
-> **Note:** this reader (v0.1.0, May 2026) reads the JSON-lines outcomes file
+> **Legacy reader:** this reader (v0.1.0, May 2026) reads the May 2026 JSON-lines outcomes file
 > `rejection_outcomes.jsonl`. It does not read the CSV files of the current
 > RED-2400 deposit (version 4.0: `rejections.csv`, `rejection_outcomes.csv`,
 > `graveyard_lifecycle.csv`); load those directly with `pandas.read_csv`.
